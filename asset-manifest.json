@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-04-phonebook/static/css/main.b5320759.css",
-    "main.js": "/goit-react-hw-04-phonebook/static/js/main.d5647c01.js",
-    "static/media/reducer": "/goit-react-hw-04-phonebook/static/media/reducer.a1a6b989ea9457a1f324",
-    "index.html": "/goit-react-hw-04-phonebook/index.html",
-    "main.b5320759.css.map": "/goit-react-hw-04-phonebook/static/css/main.b5320759.css.map",
-    "main.d5647c01.js.map": "/goit-react-hw-04-phonebook/static/js/main.d5647c01.js.map"
+    "main.css": "/react-hw-06-phonebook/static/css/main.b5320759.css",
+    "main.js": "/react-hw-06-phonebook/static/js/main.cff575ab.js",
+    "static/media/reducer": "/react-hw-06-phonebook/static/media/reducer.a1a6b989ea9457a1f324",
+    "index.html": "/react-hw-06-phonebook/index.html",
+    "main.b5320759.css.map": "/react-hw-06-phonebook/static/css/main.b5320759.css.map",
+    "main.cff575ab.js.map": "/react-hw-06-phonebook/static/js/main.cff575ab.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.d5647c01.js"
+    "static/js/main.cff575ab.js"
   ]
 }
