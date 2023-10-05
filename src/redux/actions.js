@@ -8,7 +8,7 @@ export const addContact = newContact => {
 export const deleteContact = contactId => {
   return {
     type: 'contact/deleteContact',
-    payload: 'contactId',
+    payload: contactId,
   };
 };
 
