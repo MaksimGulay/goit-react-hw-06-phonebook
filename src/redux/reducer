@@ -10,7 +10,7 @@ const contactInitialState = {
 
 const contactsReducers = (state = contactInitialState, action) => {
   switch (action.type) {
-    case 'contacts/AddNewContact':
+    case 'contact/addNewContact':
       const existingContact = state.contacts.find(
         contact =>
           contact.name.toLowerCase() === action.payload.name.toLowerCase()
@@ -24,7 +24,7 @@ const contactsReducers = (state = contactInitialState, action) => {
           contacts: [...state.contacts, action.payload],
         };
       }
-    case 'contacts/deleteContact':
+    case 'contact/deleteContact':
       return {
         ...state,
         contacts: state.contacts.filter(
