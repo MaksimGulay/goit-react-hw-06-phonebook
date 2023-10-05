@@ -1,5 +1,6 @@
 export const getFilteredContacts = state => {
-  return state.contacts.filter(contact =>
-    contact.name.toLowerCase().includes(state.filter.toLowerCase())
+  const { contacts, filter } = state;
+  return contacts.contacts.filter(contact =>
+    contact.name.toLowerCase().includes(filter.filter.toLowerCase())
   );
 };

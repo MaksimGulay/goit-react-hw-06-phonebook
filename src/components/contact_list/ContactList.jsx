@@ -15,7 +15,9 @@ import {
 export const ContactList = ({ contact }) => {
   const dispatch = useDispatch();
   const handleDelete = () => dispatch(deleteContact(contact.id));
+  console.log(deleteContact);
   const filteredContacts = useSelector(getFilteredContacts);
+  console.log(filteredContacts);
   return (
     <ListContainer>
       <StyledContactList>
