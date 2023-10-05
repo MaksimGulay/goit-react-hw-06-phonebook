@@ -53,7 +53,7 @@ const filterReducer = (state = filterInitialState, action) => {
 };
 
 export const rootReducer = combineReducers({
-  contacts: contactsReducers,
+  contact: contactsReducers,
   filter: filterReducer,
 });
 
