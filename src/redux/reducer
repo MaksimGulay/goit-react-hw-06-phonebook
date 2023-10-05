@@ -10,7 +10,7 @@ const contactInitialState = {
 
 const contactsReducers = (state = contactInitialState, action) => {
   switch (action.type) {
-    case 'contact/addNewContact':
+    case 'contact/addContact':
       const existingContact = state.contacts.find(
         contact =>
           contact.name.toLowerCase() === action.payload.name.toLowerCase()
