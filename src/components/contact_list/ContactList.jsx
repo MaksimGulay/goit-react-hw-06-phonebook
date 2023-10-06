@@ -1,3 +1,4 @@
+// ContactList.jsx
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
@@ -12,12 +13,15 @@ import {
   DeleteButton,
 } from './contactList-style';
 
-export const ContactList = ({ contact }) => {
+export const ContactList = () => {
   const dispatch = useDispatch();
-  const handleDelete = () => dispatch(deleteContact(contact.id));
-  console.log(deleteContact);
+
   const filteredContacts = useSelector(getFilteredContacts);
-  console.log(filteredContacts);
+
+  const handleDelete = id => {
+    dispatch(deleteContact(id));
+  };
+  // console.log(filteredContacts);
   return (
     <ListContainer>
       <StyledContactList>

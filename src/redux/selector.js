@@ -1,3 +1,4 @@
+// selector.js
 export const getFilteredContacts = state => {
   const { contacts, filter } = state;
   return contacts.contacts.filter(contact =>

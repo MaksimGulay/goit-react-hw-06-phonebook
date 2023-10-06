@@ -1,3 +1,4 @@
+// action.js
 export const addContact = newContact => {
   return {
     type: 'contact/addContact',
@@ -5,10 +6,10 @@ export const addContact = newContact => {
   };
 };
 
-export const deleteContact = contactId => {
+export const deleteContact = contactToDelete => {
   return {
     type: 'contact/deleteContact',
-    payload: contactId,
+    payload: contactToDelete,
   };
 };
 
