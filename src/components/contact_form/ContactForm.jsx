@@ -1,3 +1,4 @@
+// ContactForm.jsx
 import React from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
@@ -36,6 +37,7 @@ export const ContactForm = () => {
       onSubmit={(values, actions) => {
         const newContact = { ...values, id: nanoid() };
         dispatch(addContact(newContact));
+        console.log(newContact);
         actions.resetForm();
         actions.setSubmitting(false);
       }}
